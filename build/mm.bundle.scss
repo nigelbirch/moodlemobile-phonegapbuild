@@ -16,7 +16,7 @@
  */
 
 // Bar content.
-$bar-content-bg: #f70 !default;
+$bar-content-bg: #E30072 !default;
 $bar-content-border: transparent !default;
 $bar-content-text: #fff !default;
 
@@ -1425,8 +1425,8 @@ p.mma-mod-quiz-warning {
 }
 
 
-$mma-mod-scorm-level-margin:		25px !default;
-$mma-mod-scorm-warning-color:		#c00 !default;
+$mma-mod-scorm-level-margin:     25px !default;
+$mma-mod-scorm-warning-color:    #c00 !default;
 
 @for $i from 0 through 15 {
   .mma-scorm-level-#{$i} {
@@ -1575,8 +1575,8 @@ $mma-qbehaviour-deferredcbm-confident-color:    #c00 !default;
 }
 
 .mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title, .item.mma-qbehaviour-deferredcbm-certainty-title p {
-	font-weight: bold;
-	font-size: 16px;
+   font-weight: bold;
+   font-size: 16px;
 }
 
 // Style ddimageortext content a bit. Almost all these styles are copied from Moodle.
