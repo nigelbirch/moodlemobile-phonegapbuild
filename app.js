@@ -35,7 +35,7 @@ angular.module('mm', ['ionic', 'ngCordova', 'angular-md5', 'pascalprecht.transla
   };
 
   window.plugins.OneSignal
-    .startInit("YOUR_APPID", "YOUR_GOOGLE_PROJECT_NUMBER_IF_ANDROID")
+    .startInit("2ba345be-143f-4bc2-9708-0623b8db78a6", "YOUR_GOOGLE_PROJECT_NUMBER_IF_ANDROID")
     .handleNotificationOpened(notificationOpenedCallback)
     .endInit();
   
